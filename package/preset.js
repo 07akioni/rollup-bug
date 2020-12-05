@@ -1,6 +1,6 @@
 import * as ab from './ab.js';
 
-console.log(ab);
+console.log({ ...ab });
 
 var preset = 'wow';
 

@@ -5,6 +5,6 @@ module.exports = {
   entry: './app-src/index.js',
   output: {
     path: path.resolve(__dirname, 'app-webpack'),
-    filename: 'appbundle.js'
+    filename: 'index.js'
   }
 }

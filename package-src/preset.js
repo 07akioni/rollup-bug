@@ -1,5 +1,5 @@
-import * as styles from './ab'
+import * as ab from './ab'
 
-console.log(styles)
+console.log({ ...ab })
 
 export default 'wow'

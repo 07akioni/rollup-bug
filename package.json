@@ -7,7 +7,9 @@
     "rollup-package": "rollup -c rollup-package.config.js",
     "rollup-package-no-shake": "rollup -c rollup-package-no-shake.config.js",
     "rollup-app": "npm run rollup-package && rollup -c rollup-app.config.js && node app/index.js",
-    "rollup-app-no-shake": "npm run rollup-package && rollup -c rollup-app.config.js && node app/index.js"
+    "rollup-app-no-shake": "npm run rollup-package-no-shake && rollup -c rollup-app.config.js && node app/index.js",
+    "webpack-app": "npm run rollup-package && webpack -c webpack-app.config.js && node app-webpack/index.js",
+    "webpack-app-no-shake": "npm run rollup-package-no-shake && webpack -c webpack-app.config.js && node app-webpack/index.js"
   },
   "author": "",
   "license": "ISC",
