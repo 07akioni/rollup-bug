@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "rollup-package": "rollup -c rollup-package.config.js",
     "rollup-app": "npm run rollup-package && rollup -c rollup-app.config.js && node app/index.js"
