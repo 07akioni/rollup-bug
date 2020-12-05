@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "rollup-package": "rollup -c rollup-package.config.js",
-    "rollup-app": "npm run rollup-package && rollup -c rollup-app.config.js && node app/index.js"
+    "rollup-package-no-shake": "rollup -c rollup-package-no-shake.config.js",
+    "rollup-app": "npm run rollup-package && rollup -c rollup-app.config.js && node app/index.js",
+    "rollup-app-no-shake": "npm run rollup-package && rollup -c rollup-app.config.js && node app/index.js"
   },
   "author": "",
   "license": "ISC",
