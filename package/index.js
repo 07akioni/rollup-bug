@@ -1,4 +1,4 @@
-export { default as baseSuffixDark } from './_base/suffix/styles/dark.js';
-export { default as inputDark } from './input/styles/dark.js';
-import './styles.js';
+export { default as a } from './a/a.js';
+export { default as b } from './b/b.js';
+import './ab.js';
 export { default } from './preset.js';

@@ -1,5 +1,5 @@
-import * as styles from './styles'
+import * as styles from './ab'
 
 console.log(styles)
 
-export default ''
+export default 'wow'

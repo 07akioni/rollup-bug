@@ -1,7 +1,7 @@
-import * as styles from './styles.js';
+import * as ab from './ab.js';
 
-console.log(styles);
+console.log(ab);
 
-var preset = '';
+var preset = 'wow';
 
 export default preset;

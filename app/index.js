@@ -1,15 +1,15 @@
-var baseSuffixDark = 'base-suffix-dark';
+var a = 'a';
 
-var styles = /*#__PURE__*/Object.freeze({
+var ab = /*#__PURE__*/Object.freeze({
 	__proto__: null,
-	baseSuffixDark: baseSuffixDark,
-	inputDark: dark
+	a: a,
+	b: b
 });
 
-var dark = ['inputDark', baseSuffixDark];
+var b = ['b', a];
 
-console.log(styles);
+console.log(ab);
 
-var preset = '';
+var preset = 'wow';
 
 console.log(preset);
