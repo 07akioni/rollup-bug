@@ -1,9 +1,9 @@
 export default {
-  input: 'src/index.js',
+  input: 'package-src/index.js',
   treeshake: false,
   output: [
     {
-      dir: 'es',
+      dir: 'package',
       format: 'esm',
       preserveModules: true
     }

@@ -1,3 +1,3 @@
-import wow from '../es/index'
+import wow from '../package/index'
 
 console.log(wow)
